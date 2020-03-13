@@ -1,18 +1,18 @@
 {% set name = "fluids" %}
-{% set version = "0.1.77" %}
+{% set version = "0.1.78" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 08b731268651ab399e93dd12ccdc86fe121ca73ceb15d5d64883bba690167a56
+  sha256: b34d3f864d3daf845ec30d4d66226cb39b1b84a06caaf109b6943d989ac9f269
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
 
 requirements:
   host:
@@ -49,7 +49,7 @@ about:
     still providing powerful functionality. If you need to perform some fluid 
     dynamics calculations, give fluids a try.
   doc_url: https://fluids.readthedocs.io/
-  dev_url: https://github.com/CalebBell/fluids 
+  dev_url: https://github.com/CalebBell/fluids
 
 extra:
   recipe-maintainers:
