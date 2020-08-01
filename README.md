@@ -5,7 +5,7 @@ Home: https://github.com/CalebBell/fluids
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Fluid dynamics component of Chemical Engineering Design Library (ChEDL)
 
