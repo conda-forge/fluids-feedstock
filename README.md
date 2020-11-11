@@ -5,9 +5,13 @@ Home: https://github.com/CalebBell/fluids
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fluids-feedstock/blob/master/LICENSE.txt)
 
 Summary: Fluid dynamics component of Chemical Engineering Design Library (ChEDL)
+
+Development: https://github.com/CalebBell/fluids
+
+Documentation: https://fluids.readthedocs.io/
 
 Fluids is open-source software for engineers and technicians working in
 the fields of chemical, mechanical, or civil engineering. It includes
