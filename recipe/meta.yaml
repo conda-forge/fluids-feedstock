@@ -1,5 +1,5 @@
 {% set name = "fluids" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d3852454e2cdb8c85dbf19cdff293407a08ab4db92f4870d8c0e7eac1d5fc00f
+  sha256: b770e6ca0e9813d348a9bc00ccae66e7e5c521d2b149da0f5f4ac3018500f82b
 
 build:
   number: 0
