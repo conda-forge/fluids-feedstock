@@ -1,11 +1,11 @@
-About fluids
-============
+About fluids-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fluids-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/CalebBell/fluids
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fluids-feedstock/blob/main/LICENSE.txt)
 
 Summary: Fluid dynamics component of Chemical Engineering Design Library (ChEDL)
 
